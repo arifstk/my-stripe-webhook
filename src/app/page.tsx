@@ -13,7 +13,7 @@ export default function WebhookStylishPage() {
         {/* Status Indicator */}
         <div className="flex justify-center mb-8">
           <div className="flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span className="w-3 h-3 rounded-full bg-emerald-500 animate-pulse" />
             <span className="text-emerald-500 text-xs font-bold tracking-widest uppercase">System Online</span>
           </div>
         </div>
@@ -21,7 +21,7 @@ export default function WebhookStylishPage() {
         {/* Content */}
         <div className="text-center space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
-            Snap <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-blue-400">Webhook</span>
+            Stripe <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-blue-400">Webhook</span>
           </h1>
           
           <div className="h-1 w-20 bg-linear-to-r from-purple-500 to-blue-500 mx-auto rounded-full" />
