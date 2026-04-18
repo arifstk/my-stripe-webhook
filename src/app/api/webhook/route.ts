@@ -1,5 +1,4 @@
 // app/api/webhook/route.ts
-
 import { NextResponse } from 'next/server';
 import { headers } from 'next/headers';
 import Stripe from 'stripe';
@@ -30,8 +29,8 @@ export async function POST(req: Request) {
   if (event.type === 'checkout.session.completed') {
     const session = event.data.object as Stripe.Checkout.Session;
     
-    // CUSTOM LOGIC HERE:
-    // This is where you notify your future projects or update a database.
+    // CUSTOM LOGIC:
+    // This is where future projects or update a database.
     console.log(`✅ Payment Success for Session: ${session.id}`);
     console.log(`📧 Customer Email: ${session.customer_details?.email}`);
   }

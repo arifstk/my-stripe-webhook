@@ -20,11 +20,11 @@ export default function WebhookStylishPage() {
 
         {/* Content */}
         <div className="text-center space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
-            Stripe <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-blue-400">Webhook</span>
+          <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-linear-to-r from-red-400 via-teal-400 to-yellow-400 tracking-tight">
+            Stripe <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-blue-400 animate-pulse">Webhook</span>
           </h1>
           
-          <div className="h-1 w-20 bg-linear-to-r from-purple-500 to-blue-500 mx-auto rounded-full" />
+          <div className="h-1 w-50 bg-linear-to-r from-red-500 via-teal-400 to-yellow-500 mx-auto rounded-full" />
 
           <p className="text-slate-400 text-lg leading-relaxed max-w-md mx-auto">
             Secure high-speed bridge between Stripe Payments and MongoDB. 
@@ -36,23 +36,23 @@ export default function WebhookStylishPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12">
           <div className="p-4 rounded-2xl bg-white/2 border border-white/5">
             <p className="text-slate-500 text-xs uppercase font-bold tracking-wider mb-1">Architecture</p>
-            <p className="text-white font-medium">Next.js Edge</p>
+            <p className="text-transparent bg-clip-text bg-linear-to-r from-red-400 via-teal-400 to-yellow-400 font-medium">Next.js Edge</p>
           </div>
           <div className="p-4 rounded-2xl bg-white/2 border border-white/5">
             <p className="text-slate-500 text-xs uppercase font-bold tracking-wider mb-1">Version</p>
-            <p className="text-white font-medium">2026-03-25.dahlia</p>
+            <p className="text-transparent bg-clip-text bg-linear-to-r from-red-400 via-teal-400 to-yellow-400 font-medium">2026-03-25.dahlia</p>
           </div>
         </div>
 
         {/* Bottom Label */}
         <div className="mt-12 text-center">
-          <p className="text-slate-600 text-xs font-mono">
+          <p className="text-slate-400 text-xs font-mono">
             ENDPOINT: app/api/webhook/route.ts
           </p>
           {/* <p className="text-slate-600 text-xs font-mono">
             whsec_lm9wvVbUzxBLPAbYDmFOtryIMVYK36h9
           </p> */}
-          <p className="text-slate-600 text-xs font-mono">
+          <p className=" text-xs font-mono text-transparent bg-clip-text bg-linear-to-r from-red-400 via-teal-400 to-yellow-400">
             Created by: Arif Hossain 
           </p>
         </div>
