@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function WebhookStylishPage() {
+export default function Home() {
   return (
     <div className="min-h-screen bg-[#0a0a0b] flex items-center justify-center p-2 relative overflow-hidden font-sans">
       {/* Animated Background Gradients */}
